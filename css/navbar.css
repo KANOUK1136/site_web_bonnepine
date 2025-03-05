@@ -1,5 +1,14 @@
+/* Define the custom font */
+@font-face {
+    font-family: "MyCustomFont"; /* Name your custom font */
+    src: url("akira.otf") format("opentype"); /* Specify the path to the .otf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Custom Navbar Styling */
 .navbar {
+    font-family: "MyCustomFont"; /* Apply custom font, fall back to sans-serif */
     background-color: #1e1e1e !important; /* Darker shade */
     padding: 15px 20px;
 }
@@ -46,6 +55,7 @@
 /* Responsive adjustments */
 @media (max-width: 992px) {
     .navbar {
+        font-family: Helvetica, sans-serif; /* Fallback to Helvetica for mobile */
         text-align: center;
     }
 
