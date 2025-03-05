@@ -1,20 +1,5 @@
-:root {
-    --loading-grey: #ededed;
-  }
-  
-  body {
-    color : #ffffff;
+    body {
     background-color:#2e2929;
     font-family: Helvetica;
     text-align: center;
 }
-
- th {
-    color : #ffffff;
-    padding: 15px;
-  }
-
- td {
-    color : #ffffff;
-    padding: 15px;
-  }
