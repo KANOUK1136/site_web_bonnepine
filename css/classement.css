@@ -1,0 +1,17 @@
+body {
+    color:#fcfcfc;
+    background-color:#2e2929;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.numero_un {
+    width: 20%; /* Full width */
+    height: 20%; /* Adjust height as needed */
+  }
+
+h1{
+    color:#fcfcfc;
+    padding: 64px 0 0 0;
+    line-height: 1.5;
+}
