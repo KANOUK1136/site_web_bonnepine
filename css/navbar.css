@@ -11,6 +11,16 @@
     font-family: "MyCustomFont"; /* Apply custom font, fall back to sans-serif */
     background-color: #1e1e1e !important; /* Darker shade */
     padding: 15px 20px;
+    display: flex; /* Use flexbox to control alignment */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center the items vertically */
+}
+
+.navbar-right {
+    font-family: "MyCustomFont"; /* Apply custom font, fall back to sans-serif */
+    background-color: #1e1e1e !important; /* Darker shade */
+    padding: 15px 20px;
+    margin-left: auto; /* Push to the right */
 }
 
 /* Navbar brand text */
