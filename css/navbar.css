@@ -40,7 +40,7 @@
 
 /* Hover effect on links */
 .navbar-nav .nav-link:hover {
-    color: #ad4c3c !important; /* Yellow on hover */
+    color: #ad4c3c !important; 
 }
 
 /* Active link */

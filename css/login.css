@@ -16,15 +16,19 @@ body {
   }
   
   .btn {
-    padding: 8px 20px;
-    border-radius: 0;
+    background-color: #ad4c3c; /* Default background color */
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white; /* Default border color */
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
 
-    width: 50%;
-    height: 50%;
-    overflow: hidden;
+.btn:hover {
+    background-color: #ff6347; /* Change background color on hover */
+    border-color: white; /* Change border color on hover */
+}
 
-  }
-  
   .form-input-material {
     --input-default-border-color: white;
     --input-border-bottom-color: white;
