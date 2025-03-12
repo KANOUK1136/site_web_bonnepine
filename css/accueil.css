@@ -12,8 +12,8 @@ body {
 .container {
     font-family: "MyCustomFont";
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    grid-template-rows: 1fr 1fr; /* 2 rows */
     width: 80vw;
     height: 80vh;
     gap: 10px;
@@ -51,15 +51,38 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #2e2929;
-    border-radius: 8px; /* Optional, just for aesthetic */
+    border-radius: 8px;
 }
 
 .video-container video {
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover; /* Ensures video fits well within the container */
+    object-fit: cover;
 }
 
 .image2 {
-    background-image: url('image2.jpg');
+    background-image: url('../images/kamina\ simon.png');
+}
+
+
+.image3 {
+    background-image: url('../images/bordure.png');
+    position: absolute;
+    right: -30%; 
+    top: 50%;
+    width: 70%; 
+    height: 70%;
+    background-position: center;
+    transform-origin: center center; 
+}
+
+.image4 {
+    background-image: url('../images/kanji2.png');
+    position: absolute;
+    left: -30%; 
+    top: 50%;
+    width: 70%; 
+    height: 70%;
+    background-position: center;
+    transform-origin: center center; 
 }

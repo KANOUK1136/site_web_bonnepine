@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Akira Tribute</title>
+    <title>Gurren Laggan Tribute</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <?php include 'navbar.php'; ?>
     <br>
     <?php include 'banniere.php'; ?>
-  </head>
-  <body>        
+</head>
+<body>        
     <link rel="stylesheet" type="text/css" href="css/accueil.css" />  
     <div class="container">
-        <div class="text">Nous aimons Gurren Laggan</div>
+        <div class="text">Nous aimons Gurren Laggan . . . </div>
         <div class="video-container">
-        <video autoplay loop muted>
-            <source src="images/TTGLED3.mp4" type="video/mp4">
-        </video>
+            <video autoplay loop muted>
+                <source src="images/TTGLED3.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="image image2"></div>
-        <div class="text">Et avons décidé d'y dédié ce site ! Pour qui est ce que vous nous prenez ??</div>
-    </div>
-  </body>
+        <div class="text">Et avons decide d'y dedie ce site ! Pour qui est ce que vous nous prenez ??</div>
+        <div class="image image3"></div>
+        <div class="image image4"></div>
+      </div>
+</body>
 </html>
