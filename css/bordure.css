@@ -1,0 +1,29 @@
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+.image3 {
+    background-image: url('../images/bordure.png');
+    position: absolute;
+    right: -30%; 
+    top: 50%;
+    width: 70%; 
+    height: 70%;
+    background-position: center;
+    transform-origin: center center; 
+}
+
+.image4 {
+    background-image: url('../images/kanji2.png');
+    position: absolute;
+    left: -30%; 
+    top: 50%;
+    width: 70%; 
+    height: 70%;
+    background-position: center;
+    transform-origin: center center; 
+}

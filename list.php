@@ -11,6 +11,7 @@
     <?php include 'navbar.php'; ?>
     <br>
     <?php include 'banniere.php'; ?>
+
 </head>
 <br>
 <br>
@@ -272,5 +273,7 @@
             </tbody>
         </table>
     </div>
+    <?php include 'bordure.php'; ?>
 </body>
+
 </html>
