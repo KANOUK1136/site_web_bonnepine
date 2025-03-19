@@ -41,18 +41,19 @@
                     </ul>
 
                     <!-- LOGIN nav item pushed to the right -->
-                    <ul class="navbar-nav ms-auto"> <!-- 'ms-auto' is used to push the LOGIN to the right -->
+                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="login.php">LOGIN</a>
+                            <?php if (isset($_SESSION['username'])): ?>
+                                <a class="nav-link" href="logout.php"><?php echo htmlspecialchars($_SESSION['username']); ?></a>
+                            <?php else: ?>
+                                <a class="nav-link" href="login.php">LOGIN</a>
+                            <?php endif; ?>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
